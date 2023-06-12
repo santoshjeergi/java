@@ -1,12 +1,10 @@
 package Synchonization.Soln1LocksSyncronized;
 
-import java.util.concurrent.locks.Lock;
-
 public class Subtrator implements Runnable{
 
     private Counter counter;
 
-    Subtrator(Counter c, Lock lock)
+    Subtrator(Counter c)
     {
         this.counter = c;
 
