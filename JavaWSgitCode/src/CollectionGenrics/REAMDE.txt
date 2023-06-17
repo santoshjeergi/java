@@ -1,0 +1,4 @@
+
+Generics is the abstarction over types,
+
+can pass the type during the method invocation, or object instanciatiom
