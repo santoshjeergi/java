@@ -10,4 +10,4 @@ Ex int hc = hashcode() {return 0}
 Loading factor(Lamda) might not reflect the preformance. 
 
 
-
+The internal hashFunction , using the hascode decides which bucket it needs to go
