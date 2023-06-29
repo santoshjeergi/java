@@ -3,6 +3,8 @@ package CollectionGenrics.HashSetPoint;
 import java.util.*;
 
 public class Main {
+
+
     public static void demo0HashSet_Equals_Hashcode()
     {
         /*Equals and hashcode*/
@@ -130,19 +132,54 @@ public class Main {
 
         System.out.println(treeSet.ceiling(50)); //50
         System.out.println(treeSet.floor(50));
-        treeSet.
+       // treeSet.
 
 
 
 
     }
+
+
+    public class Person {
+        String name;
+        int age;
+
+        @Override
+        public String toString() {
+            return "Person{" +
+                    "name='" + name + '\'' +
+                    ", age=" + age +
+                    '}';
+        }
+    };
+    static void fun(Person p1, Person p2)
+    {
+        Person temp = p1;
+        p1 = p2;
+        p2 = temp;
+    }
+     public  void demoPerson()
+    {
+        Person p1 = new Person();
+        Person p2 = new Person();
+        p1.age = 10;
+        p1.name = "ABC";
+        p2.age = 20;
+        p2.name = "1BC";
+
+        System.out.println(p1);
+        System.out.println(p2);
+
+    }
     public static void main(String[] args) {
+
         //demoHashSet_Equals_Hashcode();
       //  demo1_HashSet();
         //demo2_LinkHashSet();
         //demo1PriorityQueue_Customobjects();
         //demo2PriorityQueue_CustomComparator(true);
-        demo_TreeSet();
+        //demo_TreeSet();
+        //demoPerson();
     }
 
 
