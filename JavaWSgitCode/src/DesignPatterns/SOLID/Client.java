@@ -10,4 +10,5 @@ public class Client {
         s.setFref(fr);
         s.fly();
     }
+
 }

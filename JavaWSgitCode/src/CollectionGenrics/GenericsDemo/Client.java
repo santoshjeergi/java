@@ -12,11 +12,16 @@ public class Client {
         h.paint(new House());
 
 
+        String s = "testsring";
+        String s1 = s;
 
-uTIL u = new uTIL();
+        System.out.println(s==s1);
+
+
+/*uTIL u = new uTIL();
         List<Integer> l = new ArrayList<>();
         l.add(10);
         l.add(30);
-        u.PrintList(l);
+        u.PrintList(l);*/
     }
 }
