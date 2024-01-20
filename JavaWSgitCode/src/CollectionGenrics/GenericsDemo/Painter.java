@@ -7,10 +7,9 @@ package CollectionGenrics.GenericsDemo;
 import java.util.List;
 
 public class Painter < T extends Building> {
- public void paint( T Building)
- {
+    public void paint( T Building)  {
      Building.paint();
- }
+    }
 
     void paint(List<? extends Building> list ) {  /*wild card character ? instead of T, applicable only at the method level,
        because not using the T*/
