@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaWSgitCode/JavaWSgitCode.iml" filepath="$PROJECT_DIR$/JavaWSgitCode/JavaWSgitCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaWSgit.iml" filepath="$PROJECT_DIR$/.idea/javaWSgit.iml" />
+    </modules>
+  </component>
+</project>
